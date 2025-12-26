@@ -1,0 +1,1123 @@
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #82c7e0;
+}
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+.form-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="password"],
+.form-container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}   
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ebf4eb;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.form-container button:hover {
+    background-color: #45a049;
+}
+.form-container .error {
+    color: red;
+    margin-bottom: 15px;
+}
+.form-container .success {
+    color: green;
+    margin-bottom: 15px;
+}
+.form-container .info {
+    color: blue;
+    margin-bottom: 15px;
+}
+.form-container .note {
+    font-size: 12px;
+    color: #777;
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+.form-container .checkbox-group {
+    margin-bottom: 15px;
+}
+.form-container .checkbox-group label {
+    font-weight: normal;
+}
+.form-container .radio-group {
+    margin-bottom: 15px;
+}
+.form-container .radio-group label {
+    font-weight: normal;
+}
+.form-container .divider {
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px 0;
+}
+.form-container .footer {
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+    margin-top: 20px;
+}
+
+.form-container .footer a {
+    color: #4CAF50;
+    text-decoration: none;
+}   
+.form-container .footer a:hover {
+    text-decoration: underline;
+}
+.form-container .loading {
+    text-align: center;
+    color: #555;
+    margin-bottom: 15px;
+}
+.form-container .loading img {
+    width: 30px;
+    height: 30px;
+}
+
+.form-container .tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    color: #555;
+}
+.form-container .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%; 
+    left: 50%;
+    margin-left: -100px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.form-container .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+.form-container .highlight {
+    background-color: #ffff99;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+.form-container .highlight-important {
+    background-color: #ffcccb;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+.form-container .section-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.form-container .section-subtitle {
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+.form-container .input-group {
+    margin-bottom: 15px;
+}
+.form-container .input-group label {
+    margin-bottom: 5px;
+    display: block;
+    font-weight: bold;
+    color: #555;
+}
+.form-container .input-group input,
+.form-container .input-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}   
+.form-container .input-group input:focus,
+.form-container .input-group select:focus {
+    border-color: #4CAF50;
+    outline: none;
+}   
+.form-container .button-group {
+    display: flex;
+    justify-content: space-between;
+}       
+.form-container .button-group button {
+    width: 48%;
+}   
+.form-container .responsive {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 600px) {
+    .form-container .button-group {
+        flex-direction: column;
+    }   
+    .form-container .button-group button {
+        width: 100%;
+        margin-bottom: 10px;
+    }   
+}
+
+.form-container .alert {
+    padding: 15px;
+    background-color: #f44336;
+    color: white;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+.form-container .alert.success {
+    background-color: #4CAF50;
+}
+.form-container .alert.info {
+    background-color: #2196F3;
+}
+.form-container .alert.warning {
+    background-color: #ff9800;
+}
+.form-container .alert .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.form-container .alert .closebtn:hover {
+    color: black;
+}
+.form-container .progress-bar {
+    width: 100%;
+    background-color: #f3f3f3;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.form-container .progress-bar div {
+    height: 20px;
+    background-color: #4CAF50;
+    width: 0%;
+    transition: width 0.4s ease;
+}
+
+.form-container .star-rating {
+    direction: rtl;
+    display: inline-block;
+    padding: 20px 0;
+}
+.form-container .star-rating input[type="radio"] {
+    display: none;
+}
+
+.form-container .star-rating label {
+    font-size: 30px;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.form-container .star-rating input[type="radio"]:checked ~ label {
+    color: #f5b301;
+}
+.form-container .star-rating label:hover,
+.form-container .star-rating label:hover ~ label {
+    color: #f5b301;
+}
+.form-container .tag {
+    display: inline-block;
+    background-color: #e0e0e0;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 12px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.form-container .tag .remove-tag {
+    margin-left: 8px;
+    color: #777;
+    cursor: pointer;
+}
+.form-container .tag .remove-tag:hover {
+    color: #333;
+}
+.form-container .calendar {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+.form-container .calendar th,
+.form-container .calendar td {
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 10px;
+}
+.form-container .calendar th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+.form-container .calendar td:hover {
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+.form-container .calendar .selected {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.form-container .file-upload {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.form-container .file-upload:hover {
+    border-color: #4CAF50;
+    color: #4CAF50;
+}
+
+.form-container .file-upload input[type="file"] {
+    display: none;
+}
+.form-container .file-upload .file-name {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}       
+.form-container .accordion {
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+.form-container .accordion .accordion-header {
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #333;
+}
+.form-container .accordion .accordion-content {
+    padding: 10px;
+    display: none;
+    border-top: 1px solid #ccc;
+    color: #555;
+}
+.form-container .accordion.active .accordion-content {
+    display: block;
+}   
+.form-container .accordion .accordion-header:hover {
+    background-color: #e2e2e2;
+}           
+.form-container .step-indicator {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.form-container .step-indicator .step {
+    flex: 1;
+    text-align: center;
+    position: relative;
+    color: #777;
+}   
+.form-container .step-indicator .step.active {
+    font-weight: bold;
+    color: #4CAF50;
+}
+.form-container .step-indicator .step::after {
+    content: '';
+    position: absolute;
+    top: 15px;
+    right: -50%;
+    width: 100%;
+    height: 2px;
+    background-color: #ccc;
+    z-index: -1;
+}
+.form-container .step-indicator .step:last-child::after {
+    display: none;
+}   
+.form-container .step-indicator .step.active::after {
+    background-color: #4CAF50;
+}           
+.form-container .countdown-timer {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 15px;
+}                   
+.form-container .countdown-timer .time {
+    color: #4CAF50;
+}       
+.form-container .data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}           
+.form-container .data-table th,
+.form-container .data-table td {                
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+.form-container .data-table th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+.form-container .data-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}   
+.form-container .data-table tr:hover {
+    background-color: #e2e2e2;
+}           
+.form-container .pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+.form-container .pagination button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin: 0 4px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.form-container .pagination button.disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+.form-container .pagination button:hover:not(.disabled) {
+    background-color: #45a049;
+}
+.form-container .search-bar {
+    margin-bottom: 15px;
+    display: flex;
+}   
+.form-container .search-bar input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    box-sizing: border-box;
+}
+
+.form-container .search-bar button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+.form-container .search-bar button:hover {
+    background-color: #45a049;
+}               
+.form-container .highlighted-text {
+    background-color: #ffff00;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+.form-container .highlighted-text.important {
+    background-color: #ff9900;
+    padding: 2px 4px;
+    border-radius: 3px;
+}           
+.form-container .dynamic-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}           
+.form-container .dynamic-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}           
+.form-container .dynamic-list li:last-child {
+    border-bottom: none;
+}               
+.form-container .dynamic-list li .remove-item {
+    color: #ff3333;
+    cursor: pointer;
+}               
+
+.form-container .dynamic-list li .remove-item:hover {
+    color: #cc0000;
+}                       
+.form-container .tag-input {
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    cursor: text;
+}           
+.form-container .tag-input .tag {
+    background-color: #e0e0e0;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 12px;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+}   
+.form-container .tag-input .tag .remove-tag {
+    margin-left: 8px;
+    color: #777;
+    cursor: pointer;
+}
+.form-container .tag-input .tag .remove-tag:hover {
+    color: #333;
+}   
+.form-container .tag-input input {
+    border: none;
+    flex: 1;
+    padding: 5px;
+    font-size: 14px;
+    min-width: 100px;
+}   
+.form-container .tag-input input:focus {
+    outline: none;
+}   
+.form-container .rich-text-editor {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    min-height: 150px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}           
+.form-container .rich-text-editor:focus {
+    border-color: #4CAF50;
+    outline: none;
+}                                       
+.form-container .rich-text-editor .toolbar {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}                                                               
+.form-container .rich-text-editor .toolbar button {
+    background-color: #f1f1f1;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+}       
+.form-container .rich-text-editor .toolbar button:hover {
+    background-color: #e2e2e2;
+}   
+.form-container .rich-text-editor .content {
+    min-height: 100px;
+    outline: none;
+}   
+.form-container .notification-badge {
+    background-color: #ff3333;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    display: inline-block;
+    min-width: 20px;
+    text-align: center;
+}
+.form-container .notification-badge.zero {
+    background-color: #ccc;
+    color: #555;
+}       
+.form-container .loading-spinner {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #4CAF50;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 1s linear infinite;
+    margin: 0 auto 15px auto;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.form-container .tooltip-icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 12px;
+    line-height: 16px;
+    cursor: pointer;
+    margin-left: 5px;
+}   
+.form-container .tooltip-icon:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}                   
+
+.form-container .tooltip-icon .tooltiptext {
+    visibility: hidden;
+    width: 180px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%; 
+    left: 50%;
+    margin-left: -90px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.form-container .highlighted-section {
+    background-color: #e6f7ff;
+    padding: 10px;
+    border-left: 4px solid #4CAF50;
+    margin-bottom: 15px;
+}.form-container .highlighted-section.important {
+    background-color: #fff0f0;
+    border-left: 4px solid #ff4d4d;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.form-container .collapsible {
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+.form-container .collapsible .collapsible-header {
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #333;
+}
+
+
+.form-container .collapsible .collapsible-content {
+    padding: 10px;
+    display: none;
+    border-top: 1px solid #ccc;
+    color: #555;
+}
+.form-container .collapsible.active .collapsible-content {
+    display: block;
+}
+
+
+.form-container .collapsible .collapsible-header:hover {
+    background-color: #e2e2e2;
+}   
+.form-container .tag-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.form-container .tag-cloud .tag {
+    background-color: #e0e0e0;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 12px;
+}
+.form-container .tag-cloud .tag:hover {
+    background-color: #d5d5d5;
+    cursor: pointer;
+}
+
+.form-container .image-uploader {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    color: #777;
+    margin-bottom: 15px;
+}
+.form-container .image-uploader:hover {
+    border-color: #4CAF50;
+    color: #4CAF50;
+}
+.form-container .image-uploader input[type="file"] {
+    display: none;
+}
+.form-container .image-uploader .preview {
+    margin-top: 10px;
+}
+.form-container .image-uploader .preview img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.form-container .image-uploader .file-name {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+.form-container .stepper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.form-container .stepper .step {
+    flex: 1;
+    text-align: center;
+    position: relative;
+    color: #777;
+}
+.form-container .stepper .step.active {
+    font-weight: bold;
+    color: #4CAF50;
+}
+.form-container .stepper .step::after {
+    content: '';
+    position: absolute;
+    top: 15px;
+    right: -50%;
+    width: 100%;
+    height: 2px;
+    background-color: #ccc;
+    z-index: -1;
+}
+.form-container .stepper .step:last-child::after {
+    display: none;
+}
+.form-container .stepper .step.active::after {
+    background-color: #4CAF50;
+}
+.form-container .multi-select {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    max-height: 150px;
+    overflow-y: auto;
+    margin-bottom: 15px;
+}
+.form-container .multi-select label {
+    display: block;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.form-container .multi-select label:hover {
+    background-color: #f1f1f1;
+}
+.form-container .multi-select input[type="checkbox"] {
+    margin-right: 10px;
+}
+.form-container .color-picker {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.form-container .color-picker input[type="color"] {
+    border: none;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.form-container .color-picker label {
+    font-weight: bold;
+    color: #555;
+}
+.form-container .DatePicker {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-container .DatePicker:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+.form-container .DatePicker .calendar-icon {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #777;
+}
+.form-container .DatePicker .calendar-icon:hover {
+    color: #4CAF50;
+}
+.form-container .progress-tracker {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.form-container .progress-tracker .step {
+    flex: 1;
+    text-align: center;
+    position: relative;
+    color: #777;
+}
+
+.form-container .progress-tracker .step.active {
+    font-weight: bold;
+    color: #4CAF50;
+}
+.form-container .progress-tracker .step::after {
+    content: '';
+    position: absolute;
+    top: 15px;
+    right: -50%;
+    width: 100%;
+    height: 2px;
+    background-color: #ccc;
+    z-index: -1;
+}
+.form-container .progress-tracker .step:last-child::after {
+    display: none;
+}
+.form-container .progress-tracker .step.active::after {
+    background-color: #4CAF50;
+}
+.form-container .data-visualization {
+    width: 100%;
+    height: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+    position: relative;
+}
+.form-container .data-visualization .placeholder {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #777;
+    font-size: 16px;
+}
+.form-container .data-visualization .chart {
+    width: 100%;
+    height: 100%;
+}
+.form-container .data-visualization .chart svg {
+    width: 100%;
+    height: 100%;
+}
+.form-container .data-visualization .chart .bar {
+    fill: #4CAF50;
+}
+.form-container .data-visualization .chart .line {
+    stroke: #4CAF50;
+    stroke-width: 2;
+    fill: none;
+}
+.form-container .data-visualization .chart .pie-slice {
+    stroke: #fff;
+    stroke-width: 1;
+}
+.form-container .data-visualization .chart .pie-slice:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+.form-container .data-visualization .legend {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-size: 12px;
+}.form-container .data-visualization .legend .legend-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.form-container .data-visualization .legend .legend-item:last-child {
+    margin-bottom: 0;
+}
+.form-container .data-visualization .legend .color-box {
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+}
+.form-container .data-visualization .legend .label {
+    color: #555;
+}
+.form-container .data-visualization .legend .value {
+    margin-left: auto;
+    color: #333;
+}
+.form-container .data-visualization .tooltip {
+    position: absolute;
+    background-color: #555;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.form-container .data-visualization .tooltip.visible {
+    opacity: 1;
+}
+.form-container .data-visualization .tooltip .label {
+    font-weight: bold;
+}
+.form-container .data-visualization .tooltip .value {
+    margin-top: 5px;
+}
+.form-container .data-visualization .tooltip .percentage {
+    margin-top: 5px;
+    font-size: 10px;
+    color: #ccc;
+}
+.form-container .rich-text-editor .toolbar button.active {
+    background-color: #d5d5d5;
+}
+.form-container .rich-text-editor .toolbar button.active:hover {
+    background-color: #c0c0c0;
+}
+.form-container .rich-text-editor .content img {
+    max-width: 100%;
+    height: auto;
+}
+.form-container .rich-text-editor .content a {
+    color: #4CAF50;
+    text-decoration: underline;
+}
+.form-container .rich-text-editor .content a:hover {
+    color: #45a049;
+}   
+.form-container .rich-text-editor .content blockquote {
+    border-left: 4px solid #ccc;
+    margin: 10px 0;
+    padding-left: 10px;
+    color: #555;
+    font-style: italic;
+}
+.form-container .rich-text-editor .content pre {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 4px;
+    overflow-x: auto;
+    font-family: monospace;
+    color: #333;
+}
+.form-container .rich-text-editor .content code {
+    background-color: #f4f4f4;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-family: monospace;
+    color: #333;
+}
+.form-container .data-visualization .chart .bar:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+.form-container .data-visualization .chart .line-point {
+    fill: #4CAF50;
+    stroke: #fff;
+    stroke-width: 1;
+}
+.form-container .data-visualization .chart .line-point:hover {
+    r: 6;
+    cursor: pointer;
+}
+.form-container .data-visualization .chart .axis {
+    stroke: #ccc;
+    stroke-width: 1;
+}
+.form-container .data-visualization .chart .axis-label {
+    fill: #555;
+    font-size: 12px;
+}
+.form-container .data-visualization .chart .grid-line {
+    stroke: #eee;
+    stroke-width: 1;
+}
+.form-container .data-visualization .chart .grid-line:hover {
+    stroke: #ccc;
+}
+.form-container .data-visualization .chart .bar-label {
+    fill: #333;
+    font-size: 12px;
+    text-anchor: middle;
+}
+.form-container .data-visualization .chart .line-label {
+    fill: #333;
+    font-size: 12px;
+    text-anchor: middle;
+}
+.form-container .data-visualization .chart .pie-label {
+    fill: #333;
+    font-size: 12px;
+    text-anchor: middle;
+}
+.form-container .data-visualization .chart .pie-label:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+.form-container .data-visualization .chart .tooltip-arrow {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #555;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.form-container .data-visualization .chart .tooltip-arrow.visible {
+    display: block;
+}
+.form-container .data-visualization .chart .tooltip-arrow.hidden {
+    display: none;
+}
+.form-container .data-visualization .chart .highlighted-segment {
+    stroke: #ff9900;
+    stroke-width: 2;
+}
+.form-container .data-visualization .chart .highlighted-segment:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+.form-container .data-visualization .chart .selected-segment {
+    stroke: #ff4d4d;
+    stroke-width: 2;
+}
+.form-container .data-visualization .chart .selected-segment:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+.form-container .data-visualization .chart .legend .selected {
+    font-weight: bold;
+    color: #ff4d4d;
+}
+.form-container .data-visualization .chart .legend .highlighted {
+    font-weight: bold;
+    color: #ff9900;
+}
+.form-container .data-visualization .chart .legend .normal {
+    color: #555;
+}
+
+.form-container .data-visualization .chart .legend .color-box.selected {
+    border: 2px solid #ff4d4d;
+}
+.form-container .data-visualization .chart .legend .color-box.highlighted {
+    border: 2px solid #ff9900;
+}
+.form-container .data-visualization .chart .legend .color-box.normal {
+    border: none;
+}
+.form-container .data-visualization .chart .tooltip .highlighted {
+    background-color: #ff9900;
+}
+.form-container .data-visualization .chart .tooltip .selected {
+    background-color: #ff4d4d;
+}
+.form-container .data-visualization .chart .tooltip .normal {
+    background-color: #555;
+}
+.form-container .data-visualization .chart .zoom-controls {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.form-container .data-visualization .chart .zoom-controls button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.form-container .data-visualization .chart .zoom-controls button:hover {
+    background-color: #45a049;
+}
+.form-container .data-visualization .chart .zoom-controls button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.form-container .data-visualization .chart .zoom-controls button:disabled:hover {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.form-container .data-visualization .chart .reset-zoom {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.form-container .data-visualization .chart .reset-zoom:hover {
+    background-color: #45a049;
+}
+.form-container .data-visualization .chart .reset-zoom:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
